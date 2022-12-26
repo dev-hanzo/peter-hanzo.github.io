@@ -10,5 +10,5 @@ gem 'jemoji'
 gem 'webrick'
 gem 'jekyll-relative-links'
 gem 'jekyll-footnotes'
-gem 'jekyll-seo-tag'
+
 # gem "rails"
