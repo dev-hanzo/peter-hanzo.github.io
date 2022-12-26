@@ -81,7 +81,8 @@ incremental:      false
 regenerate:       true
 
 timezone: Europe/Kiev
-
+last-modified-at:
+    date-format: '%YYYY-%BB-%DD'
 
 
 
@@ -93,3 +94,4 @@ plugins:
   - jekyll-relative-links
   - jekyll/footnotes
   - jekyll-seo-tag
+  - jekyll-last-modified-at

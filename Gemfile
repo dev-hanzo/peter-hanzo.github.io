@@ -11,6 +11,6 @@ gem 'webrick'
 
 gem 'jekyll-seo-tag'
 gem 'jekyll-relative-links', '~> 0.6.1'
-
+gem "jekyll-last-modified-at"
 
 # gem "rails"
