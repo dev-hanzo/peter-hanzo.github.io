@@ -167,7 +167,15 @@ The identifier in the square brackets does not have to be numeric[^my_footnote].
 
 
 
-
+hello{% fn %} world{% fn %}
+{% footnotes %}
+   {% fnbody %}
+      <p>salut</p>
+   {% endfnbody %}
+   {% fnbody %}
+      <em>monde</em>
+   {% endfnbody %}
+{% endfootnotes %}
 
 
 

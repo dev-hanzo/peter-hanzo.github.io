@@ -8,7 +8,7 @@ gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
-gem 'jekyll-footnotes'
+
 gem 'jekyll-seo-tag'
 gem 'jekyll-relative-links', '~> 0.6.1'
 
