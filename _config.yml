@@ -1,0 +1,90 @@
+# Configurations
+title:            peter hanzo
+longtitle:        Jekyll Gitbook
+author:           HE Tao
+email:            sighingnow@gmail.com
+description: >
+  цифровые улучшения
+  # лучшее.
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://peter-hanzo.github.io/'
+baseurl:          '/'
+rss:              RSS
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:       ':title:output_ext'
+
+relative_links:
+  enabled:     true
+  collections: false
+  exclude:
+    - directory
+    - file.md
+
+exclude:
+  - _drafts
+    - Config
+    - s3_website
+    - _config_*
+    - Gemfile*
+    - serve_*
+    - build_*
+    - gem_*
+    - prince-list.txt
+    - jekyll-theme-doc-project*
+    - pdf
+    - mobi
+
+collections:
+  pages:
+    output: true
+    permalink: ':title:output_ext'
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+timezone: Europe/Kiev
+
+
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
+  - jekyll-relative-links
+  - jekyll/footnotes
