@@ -88,3 +88,4 @@ plugins:
   - jemoji
   - jekyll-relative-links
   - jekyll/footnotes
+  - jekyll-seo-tag
