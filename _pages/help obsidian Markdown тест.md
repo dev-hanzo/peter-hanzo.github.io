@@ -1,19 +1,19 @@
 ---
-Title: help absidian Markdown тест
-Data: 29-08-2022, 15:07 ,
-Project: 
-Tags:
+layout: post
+author: Tao He
+date: 2022-09-30
+title:   заметки с тем же синтаксисом
+excerpt: 'Theoretically, you could use any '
+cover: https://peter-hanzo.github.io/jekyll-gitbook/_post/555/dinosaur.gif
+tags:
+ - node-js
+ - office-365-development
+ - sharepoint-development
+ - sharepoint-framework
+category: 3333
+collection: 0011
+
 ---
-Project: [`obsidian`](`obsidian`.md)
-Similar: обсидиан
-Author:
-Source:
-Type: #инструкция 
-Status: #edit
-Location: #пк 
-Back link:
-Next move:  *объединить с другими примерами*
-____________
 
 Вы можете **встроить** файл PDF в свои заметки с тем же синтаксисом. Кроме того, вы можете написать `![[My File.pdf#page=number]]`, чтобы открыть эту конкретную страницу PDF напрямую.
 
