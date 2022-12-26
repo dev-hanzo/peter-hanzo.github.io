@@ -14,8 +14,9 @@ url:              'https://peter-hanzo.github.io/'
 baseurl:          '/'
 rss:              RSS
 
-# bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
+# bootstrap: use the remote theme for the site itself remote_theme: sighingnow/jekyll-gitbook
+
+theme: jekyll-gitbook
 
 toc:
   enabled: true
@@ -88,4 +89,4 @@ plugins:
   - jemoji
   - jekyll-relative-links
   - jekyll/footnotes
-
+  - jekyll-seo-tag
