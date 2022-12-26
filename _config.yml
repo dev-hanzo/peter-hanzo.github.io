@@ -30,6 +30,7 @@ markdown:         kramdown
 kramdown:
   auto_ids:               true
   input:                  GFM
+  parse_block_html: true
   math_engine:            mathjax
   smart_quotes:           lsquo,rsquo,ldquo,rdquo
   toc_levels:             1..6
@@ -89,3 +90,4 @@ plugins:
   - jekyll-relative-links
   - jekyll/footnotes
   - jekyll-seo-tag
+  - jekyll-toc
