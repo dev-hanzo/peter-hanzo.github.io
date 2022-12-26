@@ -68,7 +68,7 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: ':title:output_ext'
+    permalink: '/:collection/:path/:title/'
 
 page_width: 800px
 
