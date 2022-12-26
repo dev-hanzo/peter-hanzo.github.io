@@ -37,6 +37,11 @@ kramdown:
   syntax_highlighter:     rouge
   syntax_highlighter_opts:
     guess_lang:           true
+  transliterated_header_ids:  true 
+  mark_highlighting:  true 
+  footnote_nr:  2 
+  footnote_backlink_inline:  true
+  footnote_backlink: snoska
 
 syntax_highlighter_style: colorful
 
