@@ -12,4 +12,5 @@ gem 'jekyll-footnotes'
 gem 'jekyll-seo-tag'
 gem 'jekyll-relative-links', '~> 0.6.1'
 
+
 # gem "rails"
