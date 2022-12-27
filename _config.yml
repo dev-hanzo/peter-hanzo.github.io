@@ -116,4 +116,8 @@ plugins:
   - jekyll_remote_plantuml_plugin
   
   plantuml:
-  provider: 'http://www.plantuml.com/plantuml'
+    provider: 'http://www.plantuml.com/plantuml'
+    url:          'http://www.plantuml.com/plantuml' 
+    type:         'svg'
+    ssl_noverify: '0'
+    http_debug:   '0'
