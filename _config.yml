@@ -113,3 +113,7 @@ plugins:
   - jekyll-spaceship
   - jekyll-plantastisch
   - jekyll-plantuml-embed
+  - jekyll_remote_plantuml_plugin
+  
+  plantuml:
+  provider: 'http://www.plantuml.com/plantuml'
