@@ -1,11 +1,23 @@
 # Configurations
-title:            peter hanzo
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+author:
+  name: Peter Hanzo
+  twitter: peter-hanzo
+  image: peter-hanzo.jpg
+twitter:
+  username: peter-hanzo
+  card: summary_large_image
+social:
+  name: Peter Hanzo
+  links:
+    - https://twitter.com/waldekm
+    - https://www.facebook.com/waldek
+    - https://www.linkedin.com/in/waldekmastykarz
+    - https://github.com/waldekmastykarz
+
 description: >
   цифровые улучшения
   # лучшее.
+
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -80,13 +92,28 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
+
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+
 timezone: Europe/Kiev
 last-modified-at:
     date-format: '%YYYY-%BB-%DD'
-
-
-
-
+    
+    
+    
+    
 plugins:
   - jekyll-feed
   - jekyll-readme-index
