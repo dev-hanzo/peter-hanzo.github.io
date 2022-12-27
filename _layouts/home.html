@@ -19,24 +19,6 @@
             <div class="book-body">
                 <div class="book-header" role="navigation">
                     <!-- Title -->
-                    <title>
-  {% if page.tag or page.title %}
-    {% if page.tag %}
-      {{ page.tag | escape }}
-    {% else %}
-      {{ page.title | escape }}
-    {% endif %}
-    -
-  {% endif %}
-  {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-    Page {{ paginator.page }} of {{ paginator.total_pages }} -
-  {% endif %}
-  {{ site.name | escape }}
-  {% unless page.tag or page.title %}
-    - {{ site.description | escape }}
-  {% endunless %}
-</title>
-<description>{% if post.image %}&lt;p&gt;&lt;img src="{{ post.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{% endif %}{{ post.content | xml_escape }}</description>
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         {% if page.title %}
