@@ -3,6 +3,8 @@ author:
   name: Peter Hanzo
   twitter: peter-hanzo
   image: peter-hanzo.jpg
+  logo: peter-hanzo.jpg
+  url: https://peter-hanzo.github.io/
 twitter:
   username: peter-hanzo
   card: summary_large_image
@@ -93,20 +95,6 @@ incremental:      false
 regenerate:       true
 
 
-
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-
 timezone: Europe/Kiev
 last-modified-at:
     date-format: '%YYYY-%BB-%DD'
@@ -123,3 +111,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-spaceship
+  - jekyll-remote-plantuml
