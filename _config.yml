@@ -111,4 +111,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-spaceship
-  - jekyll-remote-plantuml
+  - jekyll-plantastisch

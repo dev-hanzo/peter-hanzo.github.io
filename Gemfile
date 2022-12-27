@@ -13,6 +13,6 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-relative-links', '~> 0.6.1'
 gem "jekyll-last-modified-at"
 gem 'jekyll-spaceship'
-gem 'jekyll-plantuml-base64', '~> 0.1.4.36'
+gem 'jekyll-plantastisch'
 
 # gem "rails"
