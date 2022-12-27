@@ -112,3 +112,4 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-spaceship
   - jekyll-plantastisch
+  - jekyll-plantuml-embed

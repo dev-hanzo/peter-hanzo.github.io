@@ -14,5 +14,5 @@ gem 'jekyll-relative-links', '~> 0.6.1'
 gem "jekyll-last-modified-at"
 gem 'jekyll-spaceship'
 gem 'jekyll-plantastisch'
-
+gem 'jekyll-plantuml-embed'
 # gem "rails"
