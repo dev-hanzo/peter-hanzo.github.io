@@ -1,7 +1,7 @@
 ---
 layout: post
 category: 444
-title: What version of Node can I use for the SharePoint Framework?
+title: CONTRIBUTING2
 excerpt: 'Theoretically, you could use any '
 image: https://sighingnow.github.io/jekyll-gitbook/assets/dinosaur.gif
 date: '2019-11-11 18:51:54'

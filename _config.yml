@@ -4,7 +4,6 @@ author:
   twitter: peter-hanzo
   image: peter-hanzo.jpg
   logo: peter-hanzo.jpg
-  url: https://peter-hanzo.github.io/
 twitter:
   username: peter-hanzo
   card: summary_large_image
@@ -86,7 +85,7 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: '/:collection/:title/'
+    permalink: '/:title/'
 
 page_width: 800px
 
