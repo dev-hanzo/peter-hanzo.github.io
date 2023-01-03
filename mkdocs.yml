@@ -2,7 +2,7 @@
 site_name: The Blue Book
 site_description: My personal digital garden
 site_author: Lyz
-site_url: https://lyz-code.github.io/blue-book
+site_url: https://peter-hanzo.github.io/
 nav:
   - Introduction: index.md
   - Projects: projects.md
@@ -553,5 +553,5 @@ extra:
     - icon: fontawesome/solid/rss
       link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
 
-repo_name: lyz-code/blue-book
-repo_url: https://github.com/lyz-code/blue-book
+repo_name: peter-hanzo/peter-hanzo.github.io
+repo_url: https://github.com/peter-hanzo/peter-hanzo.github.io
