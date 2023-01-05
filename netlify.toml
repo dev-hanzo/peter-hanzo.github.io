@@ -1,3 +1,6 @@
 [build]
-  command = "jekyll build --trace"
+  command = "mkdocs build"
   publish = "_site"
+[template]
+  incoming-hooks = ["Contentful"]
+
