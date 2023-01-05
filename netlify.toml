@@ -1,0 +1,6 @@
+[build]
+  command = "mkdocs build"
+  publish = "_site"
+[template]
+  incoming-hooks = ["Contentful"]
+
