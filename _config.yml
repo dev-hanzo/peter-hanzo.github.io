@@ -1,20 +1,89 @@
-# Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Your name and what you do
+name: Eve Adam
+bio: Software Developer
 
-# User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+description: Eve Adam's Personal Website
 
-# Google-analytics
-google-analytics:
-  id: ""
+# Profile picture
+picture: assets/images/profile.jpg
 
-exclude: ['package.json', 'src' , 'node_modules']
+# your url: http://USERNAME.github.io
+url: https://jibolash.github.io/Eve/
+
+# do you want to display social media links? true or false
+social-media: true
+# Add your username for the social media websites listed below
+# If you don't have an account on any of them, comment out the line
+# facebook: myfacebook
+twitter: mytwitter
+linkedin: mylinkedin
+github: mygithub
+email: myemail@gmail.com
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# youtube: myyoutube
+# spotify: myspotify
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# do you want to display an about section? true or false
+about: true
+
+# do you want to display a skills section? true or false
+skills: true
+
+# add your skills here
+skills-list:
+    - HTML, Jade
+    - CSS (Stylus, Sass, Less)
+    - Javascript, NodeJS
+    - AngularJS, ReactJS
+    - Java, Android
+    - Python
+    - MySQL - MongoDB    
+    - Git    
+
+# do you want to display a projects section? true or false
+projects: true
+
+# add your projects here
+project-list:
+    Eve:
+        name: Eve
+        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
+        url: https://github.com/jibolash/Eve
+    World-Cup-History:
+        name: World Cup  History
+        description: npm package for FIFA World cup historical data
+        url: https://github.com/jibolash/world-cup-history
+    Tweeter:
+        name: Tweeter
+        description: A Twitter inspired web application built with Angular 5
+        url: https://tweetermum.herokuapp.com
+    Transcend:
+        name: Transcend
+        description: An android app for meditation and mindfulness
+        url: https://github.com/Khosbayar/Transcend
+
+
+# do you want to display the theme attribution? true or false
+footer: true
+
+# Enable animations? true or false
+animation: true
+
+gems:
+  - jekyll-seo-tag
+
+exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]

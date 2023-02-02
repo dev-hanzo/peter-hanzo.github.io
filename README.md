@@ -1,71 +1,41 @@
-# Particle Jekyll Theme
+# Eve Jekyll Theme - <a href="http://jibolash.github.io/Eve/">Demo</a>
 
-![](./particle.jpg)
+<a href="https://travis-ci.org/jibolash/Eve"><img src="https://travis-ci.org/jibolash/Eve.svg?branch=gh-pages" alt="Build Status" /></a>
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+Eve is an ultra minimal Jekyll theme for building single page personal portfolio websites
 
-The Theme features:
+<p align="center">
+    <img src="https://preview.ibb.co/ditr6J/Screen_Shot_2018_05_14_at_6_27_06_PM.png" />
+</p>
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+## Deploying to Github Pages
 
-## Basic Setup
+- Fork or Clone this repo
+- Rename the repo to your desired github pages url (E.g yourname.github.io)
+- Customize `_config.yml` as desired
+- Push code to a `gh-pages` branch
+- Visit your website at the github pages url you specified in the second step
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+Learn more about Github pages <a href="https://pages.github.com/">here</a>
 
-## Site and User Settings
+## Usage
 
-You have to fill some informations on `_config.yml` to customize your site.
+- Update `_config.yml` with your desired settings
+- Update `_includes/about.html` with information about yourself
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+## Local Setup
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
-
-**Don't forget to change your url before you deploy your site!**
-
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
-
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+- Install <a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="https://bundler.io/">Bundler</a>, <a href="https://jekyllrb.com/">Jekyll</a>, and <a href="https://nodejs.org/en/">NodeJS</a> `NodeJS`.
+- Run `bundle install` from repo's root
+- Run `bundle exec jekyll serve --config _config.yml,_config-dev.yml` to start the local server
+- Vist website in your browser at `http://localhost:4000`
+- Run link, image and script checks on the website with `bundle exec htmlproofer ./_site --only-4xx`
 
 ## Credits
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+- Inspired by <a href="https://github.com/sergiokopplin/indigo">indigo</a>
+- Demo profile photo by <a href="https://www.pexels.com/photo/woman-wearing-eyeglasses-773371/">Tarzine Jackson</a>
+
+## License
+
+MIT
