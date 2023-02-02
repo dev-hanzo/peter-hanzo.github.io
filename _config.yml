@@ -55,6 +55,14 @@ skills-list:
     - MySQL - MongoDB    
     - Git    
 
+
+tools: true
+skills-list:
+    - HTML, Jade
+    - CSS (Stylus, Sass, Less)
+    - Javascript, NodeJS
+
+
 # do you want to display a projects section? true or false
 projects: true
 
