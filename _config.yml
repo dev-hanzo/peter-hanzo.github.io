@@ -5,10 +5,10 @@ bio: Business Analyst | Project manager | MBA
 description: I am known for inventing and simplifying processes to maximize workflow and productivity.
 
 # Profile picture
-picture: assets/images/profile.png
+picture: profile.png
 
 # your url: http://USERNAME.github.io
-url: https://peter-hanzo.github.io/
+url: https://peter-hanzo-github-io.pages.dev/
 
 # do you want to display social media links? true or false
 social-media: true
