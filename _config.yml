@@ -1,45 +1,20 @@
-title:               My digital garden
-include:             ['_pages']
-exclude:             ['_includes/notes_graph.json']
-# You may need to change the base URL depending on your deploy configuration.
-# Specifically, when using GitHub Pages, the baseurl should point to where GitHub
-# Pages deploys your repository (which is usually the repository name).
-baseurl:             ''
+# Site settings
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-# If you are using a host that cannot resolve URLs that do
-# not end with .html (such as Neocities), set this to 'true'.
-use_html_extension:  false
+# User settings
+username: Anon Developer
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: Software Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
 
-# Set to `true` to open non-internal links in new tabs, or
-# set to `false` to open non-internal links in current tab.
-open_external_links_in_new_tab: true
+# Google-analytics
+google-analytics:
+  id: ""
 
-# Set to `true` to replace tweet URLs with Twitter embeds.
-# Note that doing so will negatively the reader's privacy
-# as their browser will communicate with Twitter's servers.
-embed_tweets: false
-
-permalink:           pretty
-relative_permalinks: false
-
-plugins:
-  - jekyll-last-modified-at
-
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-collections:
-  notes:
-    output: true
-    permalink: /:slug
-
-defaults:
-  - scope:
-      path: "**/*"
-    values:
-      layout: "default"
-  - scope:
-      path: "_notes/**/*.md"
-    values:
-      layout: "note"
+exclude: ['package.json', 'src' , 'node_modules']
