@@ -1,14 +1,14 @@
 # Your name and what you do
-name: Eve Adam
-bio: Software Developer
+name: Peter Hanzo
+bio: Business Analyst | Project manager | MBA
 
-description: Eve Adam's Personal Website
+description: I am known for inventing and simplifying processes to maximize workflow and productivity.
 
 # Profile picture
 picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
-url: https://jibolash.github.io/Eve/
+url: https://peter-hanzo.github.io/
 
 # do you want to display social media links? true or false
 social-media: true
@@ -20,17 +20,18 @@ linkedin: mylinkedin
 github: mygithub
 email: myemail@gmail.com
 # google: mygoogle
-# instagram: myinstagram
+instagram: myinstagram
 # pinterest: mypinterest
 # youtube: myyoutube
-# spotify: myspotify
+spotify: myspotify
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-# medium: medium
+medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
+behance: behance
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -78,7 +79,7 @@ project-list:
 
 
 # do you want to display the theme attribution? true or false
-footer: true
+footer: false
 
 # Enable animations? true or false
 animation: true
