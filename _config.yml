@@ -15,20 +15,27 @@ social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: mytwitter
-linkedin: mylinkedin
-github: mygithub
+
+
+
 email: myemail@gmail.com
+github: peter-hanzo
+linkedin: rudenkopeter
+facebook: peter.hanzo.life
+twitter: Peter_hanzo
+instagram: peter.hanzo
+
+
 # google: mygoogle
-instagram: myinstagram
+
 # pinterest: mypinterest
 # youtube: myyoutube
-spotify: myspotify
+# spotify: myspotify
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 
