@@ -76,8 +76,24 @@ project-list:
         name: Transcend
         description: An android app for meditation and mindfulness
         url: https://github.com/Khosbayar/Transcend
+        
+        
+        
+        
+        
+hobby: true
 
-
+# add your projects here
+hobby-list:
+    Eve:
+        name: Eve
+        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
+        url: https://github.com/jibolash/Eve
+        
+        
+        
+        
+        
 # do you want to display the theme attribution? true or false
 footer: false
 

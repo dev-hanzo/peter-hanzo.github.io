@@ -1,0 +1,11 @@
+<section class="list">
+    {% for hobby_hash in site.hobby-list %}
+    {% assign hobby = hobby_hash[1] %}
+        <div class="item">
+                <a class="url" href="{{ hobby.url }}">
+                    <h3 class="title">{{ hobby.name }}</h3>
+                </a>
+                <p class="description">{{ hobby.description }}</p>        
+        </div>
+    {% endfor %}
+</section>
